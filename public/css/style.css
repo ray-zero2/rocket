@@ -1,0 +1,15 @@
+.canvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+.caption {
+  color: '#333';
+  text-align: right;
+  font-weight: lighter;
+  font-size: 25px;
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+}
