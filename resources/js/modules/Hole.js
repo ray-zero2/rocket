@@ -43,7 +43,7 @@ export default class Hole {
     const textX = position.x - textSize / 4;
     const textY = position.y - this.size - TEXT_OFFSET;
     this.ctx.font = 'bold 18px sans-serif';
-    this.util.drawText('Drag!', textX, textY, '#111', textSize);
+    this.util.drawText('Hold!', textX, textY, '#111', textSize);
   }
 
   renderVacuum(deltaTime) {
